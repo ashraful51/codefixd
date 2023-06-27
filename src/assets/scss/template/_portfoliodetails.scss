@@ -1,0 +1,107 @@
+/*-----------------------------
+    Portfolio details  
+--------------------------------*/
+.rwt-portfolio-details {
+    .content-left {
+        .title {
+            font-size: 30px;
+            margin-bottom: 33px;
+            @media #{$sm-layout} {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+        }
+        .single-list-wrapper {
+            margin: -5px;
+            .single-list {
+                margin: 5px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 0;
+                & + .single-list {
+                    border-top: 1px solid var(--color-border);
+                }
+                label {
+                    font-size: 20px;
+                    color: #fff;
+                    display: inline-block;
+                    padding-right: 16px;
+                    margin: 0;
+                }
+                span {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .content-right {
+        .subtitle {
+            font-size: 25px;
+            letter-spacing: 0.5px;
+            font-weight: 500;
+        }
+        .description {
+            p {
+                margin-bottom: 10px;
+                
+            }
+        }
+    }
+    
+}
+
+.rwt-portfolio-details {
+    .alignwide {
+        margin-left: -100px;
+        margin-right: -100px;
+        max-width: 1400px;
+        width: auto;
+        @media #{$lg-layout} {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        @media #{$md-layout} {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        @media #{$sm-layout} {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
+
+
+.bg-port{
+background-color: #f7c9aa;
+padding: 20px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  .row-port:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  .titleOne{
+    color: black !important;
+  }
+  .des{
+    p{
+    
+    color: black !important;
+    margin: 0 !important;
+}}
